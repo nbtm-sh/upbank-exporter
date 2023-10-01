@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "upbank-prometheus-exporter"
+version = "0.1.0"
+description = ""
+authors = ["Nathan Glades <nathan.glades@petermac.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+prometheus-client = "^0.17.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
