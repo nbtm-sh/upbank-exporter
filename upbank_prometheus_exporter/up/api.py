@@ -111,8 +111,5 @@ class TransactionSet:
 	def __getitem__(self, item):
 		return self.transactions[item]
 
-	def __setitem__(self, item, value):
-		return self.transactions[item] = value
-
 	def __iter__(self):
 		return self.transactions
