@@ -4,4 +4,4 @@ Used for exporting account information from your Up Bank Acconut [https://up.com
 
 ## Configuration
 
-In order for the exporter to run, you must provide your Up API token. This token should be set in the `TOKEN` environment variable
+In order for the exporter to run, you must provide your Up API token. This token should be set in the `UP_TOKEN` environment variable

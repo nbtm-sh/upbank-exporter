@@ -1,8 +1,8 @@
 import exporter, os
-import up.api
+from upbankapi import Client
 
 if __name__ == '__main__':
-	api = up.api.UP_API(os.getenv("TOKEN"))
+	api = Client(os.getenv("UP_TOKEN"))
 	exp = exporter.Exporter(api)
 
 	exp.run()	
